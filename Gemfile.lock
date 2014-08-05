@@ -39,6 +39,8 @@ GEM
       lita (>= 3.1)
       pebbles-suddenly_death_string (~> 0.0.4)
       rufus-scheduler (~> 3.0.7)
+    lita-sushiyuki (0.0.5)
+      lita (>= 3.1)
     multi_json (1.10.1)
     multipart-post (2.0.0)
     pebbles-suddenly_death_string (0.0.4)
@@ -73,3 +75,4 @@ DEPENDENCIES
   lita-google-images
   lita-idobata
   lita-pebbles (= 0.1.7)
+  lita-sushiyuki
