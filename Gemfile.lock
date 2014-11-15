@@ -55,6 +55,9 @@ GEM
       ipaddress
       lita (>= 3.0)
       whois
+    lita-yurudev (0.0.1)
+      faraday (~> 0.9.0)
+      lita (>= 3.0)
     minitest (5.4.0)
     multi_json (1.10.1)
     multipart-post (2.0.0)
@@ -95,3 +98,4 @@ DEPENDENCIES
   lita-pebbles (= 0.1.7)
   lita-sushiyuki
   lita-whois
+  lita-yurudev (= 0.0.1)
