@@ -6,4 +6,6 @@ Lita.configure do |config|
 
   config.redis.url = ENV["REDISTOGO_URL"]
   config.http.port = ENV["PORT"]
+  config.handlers.irkit.deviceid  = ENV["IRKIT_DEVICEID"]
+  config.handlers.irkit.clientkey = ENV["IRKIT_CLIENTKEY"]
 end
