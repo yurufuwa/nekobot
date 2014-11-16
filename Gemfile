@@ -8,5 +8,5 @@ gem "lita-google-images"
 gem "lita-ascii-art"
 gem "lita-pebbles", "0.1.7"
 gem "lita-whois"
-gem 'lita-irkit', '0.0.4'
+gem 'lita-irkit', '0.0.5'
 gem 'lita-yurudev', '0.0.1'
