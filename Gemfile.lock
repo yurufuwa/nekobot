@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/fukayatsu/lita-irkit.git
+  revision: 8125a068cbed2e6ffb895ba387bc1ae30a02a53b
+  specs:
+    lita-irkit (0.0.3)
+      faraday (~> 0.9.0)
+      lita (>= 3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -41,9 +49,6 @@ GEM
       faraday (~> 0.9.0)
       lita (>= 2.5)
       pusher-client (~> 0.6.0)
-    lita-irkit (0.0.3)
-      faraday (~> 0.9.0)
-      lita (>= 3.0)
     lita-pebbles (0.1.7)
       flippy (~> 0.1.2)
       lita (>= 3.1)
@@ -94,7 +99,7 @@ DEPENDENCIES
   lita-ascii-art
   lita-google-images
   lita-idobata
-  lita-irkit (= 0.0.3)
+  lita-irkit!
   lita-pebbles (= 0.1.7)
   lita-sushiyuki
   lita-whois
