@@ -1,12 +1,12 @@
 source "https://rubygems.org"
-ruby '2.1.5'
+ruby '2.2.1'
 
 gem "lita"
 gem "lita-idobata"
 gem "lita-sushiyuki"
 gem "lita-google-images"
 gem "lita-ascii-art"
-gem "lita-pebbles", "0.1.7"
+gem "lita-pebbles"
 gem "lita-whois"
-gem 'lita-irkit', '0.0.5'
-gem 'lita-yurudev', '0.0.1'
+gem 'lita-irkit'
+gem 'lita-yurudev'
