@@ -1,11 +1,17 @@
 Lita.configure do |config|
   config.robot.log_level   = :info
-  config.robot.adapter     = ENV["ADAPTER"] ? ENV["ADAPTER"].to_sym : :shell
   config.robot.name        = ENV["BOT_NAME"] || 'lita'
-  config.adapter.api_token = ENV["API_TOKEN"]
 
-  config.redis.url = ENV["REDISTOGO_URL"]
-  config.http.port = ENV["PORT"]
+  config.redis[:url] = ENV["REDISTOGO_URL"]
+  config.http.port = ENV["PORT"] || 4567
+
+  if ENV["ADAPTER"] == 'idobata'
+    config.robot.adapter = :idobata
+    config.adapters.idobata.api_token = ENV["API_TOKEN"]
+  else
+    config.robot.adapter = :shell
+  end
+
   config.handlers.irkit.deviceid  = ENV["IRKIT_DEVICEID"]
   config.handlers.irkit.clientkey = ENV["IRKIT_CLIENTKEY"]
 end
