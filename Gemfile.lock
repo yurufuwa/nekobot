@@ -37,7 +37,7 @@ GEM
       lita (>= 3.0.0)
     lita-google-images (2.0.0)
       lita (>= 4.0)
-    lita-idobata (0.2.1)
+    lita-idobata (0.2.2)
       faraday (~> 0.9.0)
       lita (>= 4.0)
       pusher-client (~> 0.6.0)
