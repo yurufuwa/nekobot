@@ -14,4 +14,7 @@ Lita.configure do |config|
 
   config.handlers.irkit.deviceid  = ENV["IRKIT_DEVICEID"]
   config.handlers.irkit.clientkey = ENV["IRKIT_CLIENTKEY"]
+
+  config.handlers.talk.docomo_api_key      = ENV['DOCOMO_API_KEY']
+  config.handlers.talk.docomo_character_id = 20
 end

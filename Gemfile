@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby '2.2.1'
+ruby '2.2.2'
 
 gem "lita"
 gem "lita-idobata"
@@ -10,3 +10,4 @@ gem "lita-pebbles"
 gem "lita-whois"
 gem 'lita-irkit'
 gem 'lita-yurudev'
+gem 'lita-talk'
