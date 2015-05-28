@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/fukayatsu/lita-idobata.git
+  revision: 347c7fc9fa39cad7b81d386ea34b167a07ab86bf
+  specs:
+    lita-idobata (0.2.3)
+      faraday (~> 0.9.0)
+      lita (>= 4.0)
+      pusher-client (~> 0.6.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -46,10 +55,6 @@ GEM
       lita (>= 3.0.0)
     lita-google-images (2.0.0)
       lita (>= 4.0)
-    lita-idobata (0.2.3)
-      faraday (~> 0.9.0)
-      lita (>= 4.0)
-      pusher-client (~> 0.6.0)
     lita-irkit (0.1.1)
       faraday (~> 0.9.0)
       lita (>= 3.0)
@@ -106,7 +111,7 @@ DEPENDENCIES
   lita
   lita-ascii-art
   lita-google-images
-  lita-idobata
+  lita-idobata!
   lita-irkit
   lita-pebbles
   lita-sushiyuki
