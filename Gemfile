@@ -1,8 +1,10 @@
 source "https://rubygems.org"
 ruby '2.2.2'
 
+gem 'pusher-client', github: 'fukayatsu/pusher-websocket-ruby', branch: 'disconnect-on-pusher-error'
+
 gem "lita"
-gem "lita-idobata"
+gem "lita-idobata", github: 'fukayatsu/lita-idobata', branch: 'reconnect'
 gem "lita-sushiyuki"
 gem "lita-google-images"
 gem "lita-ascii-art"
