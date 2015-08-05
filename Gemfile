@@ -2,7 +2,7 @@ source "https://rubygems.org"
 ruby '2.2.2'
 
 gem "lita"
-gem "lita-idobata"
+gem "lita-idobata", github: 'fukayatsu/lita-idobata', branch: 'reconnect'
 gem "lita-sushiyuki"
 gem "lita-google-images"
 gem "lita-ascii-art"

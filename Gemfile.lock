@@ -1,3 +1,13 @@
+GIT
+  remote: git://github.com/fukayatsu/lita-idobata.git
+  revision: 8be2445607d5dde88cf8e6fcce89410763039c2e
+  branch: reconnect
+  specs:
+    lita-idobata (0.2.6)
+      faraday (~> 0.9.0)
+      lita (>= 4.0)
+      pusher-client (~> 0.6.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -46,10 +56,6 @@ GEM
       lita (>= 3.0.0)
     lita-google-images (2.0.0)
       lita (>= 4.0)
-    lita-idobata (0.2.6)
-      faraday (~> 0.9.0)
-      lita (>= 4.0)
-      pusher-client (~> 0.6.0)
     lita-irkit (0.1.1)
       faraday (~> 0.9.0)
       lita (>= 3.0)
@@ -74,7 +80,7 @@ GEM
     multi_json (1.11.2)
     multipart-post (2.0.0)
     pebbles-suddenly_death_string (0.0.4)
-    puma (2.12.0)
+    puma (2.12.3)
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
@@ -94,7 +100,7 @@ GEM
     url_mount (0.2.1)
       rack
     websocket (1.2.2)
-    whois (3.5.9)
+    whois (3.6.0)
       activesupport (>= 3)
 
 PLATFORMS
@@ -104,7 +110,7 @@ DEPENDENCIES
   lita
   lita-ascii-art
   lita-google-images
-  lita-idobata
+  lita-idobata!
   lita-irkit
   lita-pebbles
   lita-sushiyuki
