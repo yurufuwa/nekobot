@@ -11,3 +11,4 @@ gem "lita-whois"
 gem 'lita-irkit'
 gem 'lita-yurudev'
 gem 'lita-talk'
+gem 'lita-netatmo'

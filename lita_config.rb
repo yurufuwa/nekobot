@@ -17,4 +17,9 @@ Lita.configure do |config|
 
   config.handlers.talk.docomo_api_key      = ENV['DOCOMO_API_KEY']
   config.handlers.talk.docomo_character_id = 20
+
+  config.handlers.netatmo.client_id     = ENV['NETATMO_CLIENT_ID']
+  config.handlers.netatmo.client_secret = ENV['NETATMO_CLIENT_SECRET']
+  config.handlers.netatmo.username      = ENV['NETATMO_USERNAME']
+  config.handlers.netatmo.password      = ENV['NETATMO_PASSWORD']
 end
